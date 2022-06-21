@@ -64,6 +64,50 @@
         echo 'No se encuentra en el rango de edad';
      }
 
+     // Condicional Switch 
+     $mes = 'octubre';
+
+     switch($mes){
+         case 'enero':
+            echo 'Mes de enero';
+            break;
+         case 'febrero':
+            echo 'Mes de febrero';
+            break;
+         case 'marzo':
+            echo 'Mes de marzo';
+            break;
+         case 'abril':
+            echo 'Mes de abril';
+            break;
+         case 'mayo':
+            echo 'Mes de mayo';
+            break;
+         case 'junio':
+            echo 'Mes de junio';
+            break;   
+         case 'julio':
+            echo 'Mes de julio';
+            break;
+         case 'agosto':
+            echo 'Mes de agosto';
+            break;
+         case 'septiembre':
+            echo 'Mes de septiembre';
+            break;
+         case 'octubre':
+            echo 'Mes de octubre';
+            break;
+         case 'noviembre':
+            echo 'Mes de noviembre';
+            break;
+         case 'diciembre':
+            echo 'Mes de diciembre';
+            break;
+         default:
+            break;
+     }
+
 
 ?>
 
