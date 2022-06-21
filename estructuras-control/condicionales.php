@@ -108,6 +108,22 @@
             break;
      }
 
+     // GOTO
+
+     marca:
+      echo '<h4>Me voy a saltar las marcas</h4>';
+
+     echo '<h3>Paso 1</h3>';
+     echo '<h3>Paso 2</h3>';
+     echo '<h3>Paso 3</h3>';
+     echo '<h3>Paso 4</h3>';
+     goto marca;
+     echo '<h3>Paso 5</h3>';
+     echo '<h3>Paso 6</h3>';
+     echo '<h3>Paso 7</h3>';
+     echo '<h3>Paso 8</h3>';
+
+
 
 ?>
 
